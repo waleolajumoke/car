@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-header">
+                <div class="nav-logo">
+                    <a href="#" class="logo">
+                        <img src="./logo-dark.png"   class="logo-dark" alt="logo">
+                        <img src="./logo-white.png"  class="logo-white" alt="logo">
+                        <span>Car Rental</span>
+                    </a>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Rental Deals</a></li>
+                <li><a href="">Why Choose Us</a></li>
+                <li><a href="">Testimonials</a></li>
+            </ul>
+            <div class="nav-btn">
+                <button class="btn">Register</button>
+            </div>
+            <div class="nav-menu-btn">
+                 <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+
+        <div class="header-container">
+            <div class="header-content">
+                <h2>👍 100% Trusted car rental platform in Nigeria</h2>
+                <h1>FAST AND EASY WAY TO RENT A CAR</h1>
+                <p class="section-description"> Discover a seamless car rental experience with us. Choose from a
+                range of premium vehicles to suit your style and needs, and hit the
+                road with confidence. Quick, easy, and reliable - rent your ride
+                today!</p>
+            </div>
+            <div class="header-image">
+                <img src="./header.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- booking form  -->
+     <section class="header-form">
+        <form action="">
+            <div class="input_group">
+                <label for="location">Pick up & Return location</label>
+                <input type="text" name="location" placeholder="Dallas, Texas">
+            </div>
+            <div class="input_group">
+                <label for="start">Pick up date</label>
+                <input type="text" name="start" placeholder="Aug 16, 10:AM">
+            </div>
+            <div class="input_group">
+                <label for="end">Return date</label>
+                <input type="text" name="end" placeholder="Aug 18, 10:PM">
+            </div>
+            <button class="btn">Search <i class="ri-search-line"></i> </button>
+        </form>
+     </section>
+
+     <section class="section-container about-container">
+        <h2 class="section-title">How it works </h2>
+        <div class="section-description">
+            Renting a car with us is simple! Choose your vehicle, pick your dates, and complete your booking. We'll handle the rest, ensuring a smooth start to your journey.
+        </div>
+
+        <div class="about-info">
+            <div class="about-card">
+                <span> <i class="ri-map-pin-2-fill"></i> </span>
+                <h4>Choose Location</h4>
+                <p>Select from a variety of pick-up locations that best suit your
+                    needs, whether it's close to home, work, or airport.</p>
+            </div>
+            <div class="about-card">
+                <span> <i class="ri-calendar-event-fill"></i> </span>
+                <h4>Pickup Date</h4>
+                <p>Select from a variety of pick-up locations that best suit your
+                    needs, whether it's close to home, work, or airport.</p>
+            </div>
+            <div class="about-card">
+                <span> <i class="ri-roadster-fill"></i> </span>
+                <h4>Book your car</h4>
+                <p>Select from a variety of pick-up locations that best suit your
+                    needs, whether it's close to home, work, or airport.</p>
+            </div>
+        </div>        
+
+     </section>
+
+     <!-- deal section  -->
+     <section class="deals">
+        <div class="section-container deals-container">
+            <h2 class="section-title">Most popular car rental deals</h2>
+            <p class="section-description">
+                Explore our top car rental deals, handpicked to give you the best
+                value and experience. Book now and drive your favorite ride at an
+                incredible rate!
+            </p>
+            <div class="deals-tab">
+                <button class="btn active" data-id="Tesla">Tesla</button>
+                <button class="btn" data-id="Mitsibushi">Mitsibushi</button>
+                <button class="btn" data-id="Mazda">Mazda</button>
+                <button class="btn" data-id="Toyota">Toyota</button>
+                <button class="btn" data-id="Honda">Honda</button>
+            </div>
+            
+           <!-- tab content  -->
+            <div class="tab-content active">
+                <div class="deals-card">
+                    <img src="./deals-1.png" alt="">
+                    <div class="deals-rating">
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-line"></i> </span>
+                        <span>(550)</span>
+                    </div>
+                    <h4>Tesla Model S</h4>
+                    <div class="deals-card-grid">
+                        <div>
+                            <span> <i class="ri-group-line"></i></span> 4 People
+                        </div>
+                        <div>
+                            <span> <i class="ri-steering-2-line"></i></span> Autopilot
+                        </div>
+                        <div>
+                            <span> <i class="ri-speed-up-line"></i></span> 400km
+                        </div>
+                         <div>
+                            <span> <i class="ri-car-line"></i></span> Electric
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="deals-card-footer">
+                        <h3>$180 <span>/per day</span></h3>
+                        <a href="#">Rent Now <span> <i class="ri-arrow-right-line"></i> </span> </a>
+                    </div>
+                </div>
+                <div class="deals-card">
+                    <img src="./deals-2.png" alt="">
+                    <div class="deals-rating">
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-line"></i> </span>
+                        <span>(550)</span>
+                    </div>
+                    <h4>Tesla Model E</h4>
+                    <div class="deals-card-grid">
+                        <div>
+                            <span> <i class="ri-group-line"></i></span> 4 People
+                        </div>
+                        <div>
+                            <span> <i class="ri-steering-2-line"></i></span> Autopilot
+                        </div>
+                        <div>
+                            <span> <i class="ri-speed-up-line"></i></span> 400km
+                        </div>
+                         <div>
+                            <span> <i class="ri-car-line"></i></span> Electric
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="deals-card-footer">
+                        <h3>$180 <span>/per day</span></h3>
+                        <a href="#">Rent Now <span> <i class="ri-arrow-right-line"></i> </span> </a>
+                    </div>
+                </div>
+                <div class="deals-card">
+                    <img src="./images/deals-3.png" alt="">
+                    <div class="deals-rating">
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-fill"></i> </span>
+                        <span> <i class="ri-star-line"></i> </span>
+                        <span>(550)</span>
+                    </div>
+                    <h4>Tesla Model Y</h4>
+                    <div class="deals-card-grid">
+                        <div>
+                            <span> <i class="ri-group-line"></i></span> 4 People
+                        </div>
+                        <div>
+                            <span> <i class="ri-steering-2-line"></i></span> Autopilot
+                        </div>
+                        <div>
+                            <span> <i class="ri-speed-up-line"></i></span> 400km
+                        </div>
+                         <div>
+                            <span> <i class="ri-car-line"></i></span> Electric
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="deals-card-footer">
+                        <h3>$180 <span>/per day</span></h3>
+                        <a href="#">Rent Now <span> <i class="ri-arrow-right-line"></i> </span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- choose section  -->
+      <div class="choose-container">
+        <div class="choose-image">
+            <img src="./images/choose.png" alt="">
+        </div>
+        <div class="choose-content">
+            <div class="section-title">Why Choose Us</div>
+            <p class="section-description">
+                Discover the difference with our car rental service. We offer reliable vehicles, exceptional customer service, and competitive pricing to ensure a seamless rental experience.
+            </p>
+            <div class="choose-info">
+                <div class="info-left">
+                    <div class="choose-card">
+                        <span> <i class="ri-customer-service-line"></i> </span>
+                        <div>
+                            <h4>Customer Support</h4>
+                            <p>Our dedicated support team is available to assist you 24/7.</p>
+                        </div>
+                    </div>
+                    <div class="choose-card">
+                        <span> <i class="ri-map-pin-line"></i> </span>
+                        <div>
+                            <h4>Many Locations</h4>
+                            <p> Convenient pick-up and drop-off locations to suit your travel
+                            needs.</p>
+                        </div>
+                    </div>
+                    <div class="choose-card">
+                        <span> <i class="ri-wallet-line"></i> </span>
+                        <div>
+                            <h4>Best Price</h4>
+                            <p>Enjoy competitive rates and great value for every rental.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-right">
+                    
+                    <div class="choose-card">
+                        <span> <i class="ri-user-star-line"></i> </span>
+                        <div>
+                            <h4>Experience Driver</h4>
+                            <p>Reliable, professional drivers available upon request.</p>
+                        </div>
+                    </div>
+                    <div class="choose-card">
+                        <span> <i class="ri-verified-badge-line"></i> </span>
+                        <div>
+                            <h4>Verified Brands</h4>
+                            <p>Choose from trusted and well-maintained car brands.</p>
+                        </div>
+                    </div>
+                     <div class="choose-card">
+                        <span> <i class="ri-calendar-close-line"></i> </span>
+                        <div>
+                            <h4>Free Cancellations</h4>
+                            <p>Flexible bookings with free cancellation options.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- subscribe section  -->
+     <div class="subscribe-box">
+         <section class="subscribe-container">
+            <div class="subscribe-content">
+               <h2 class="section-title">Subscribe for the latest car rental updates</h2>
+               <p class="section-description"> Stay in the know! Subscribe to receive the latest car rental deals,
+                exclusive offers, and updates right to your inbox. Don't miss out on
+                special promotions and the newest additions to our fleet.</p>
+                <form action="">
+                    <input type="text" placeholder="Your Email">
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
+            <div class="subscribe-image">
+                 <img src="./images/subscribe.png" alt="">
+            </div>
+      </section>
+     </div>
+     <!-- testimonial  -->
+
+      <!-- footer  -->
+     <footer class="footer">
+        <div class="section-container footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                   <a href="#" class="logo">
+                     <img src="./images/logo-white.png" alt="">
+                    <span>Car Rental</span>
+                   </a>
+                </div>
+                <p>We're here to provide you with the best vehicles and a seamless
+                    rental experience. Stay connected for updates, special offers, and
+                    more. Drive with confidence!
+                </p>
+                <ul class="footer-socials">
+                    <li><a href="#"> <i class="ri-facebook-fill"></i> </a></li>
+                    <li><a href="#"> <i class="ri-facebook-fill"></i> </a></li>
+                    <li><a href="#"> <i class="ri-facebook-fill"></i> </a></li>
+                    <li><a href="#"> <i class="ri-facebook-fill"></i> </a></li>
+                    <li><a href="#"> <i class="ri-facebook-fill"></i> </a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Our Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Rental Deals</a></li>
+                    <li><a href="#">Why Choose Us</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                 <h4>Our Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Toyotal Corollae</a></li>
+                    <li><a href="#">Toyota Noah</a></li>
+                    <li><a href="#">Toyota Allion</a></li>
+                    <li><a href="#">Toyota Premio</a></li>
+                    <li><a href="#">Mitsibuishi Pajero</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacts</h4>
+                <ul class="footer-links">
+                    <li><a href="#"> <i class="ri-phone-fill"></i> +912345678</a></li>
+                    <li><a href="#"> <i class="ri-map-pin-fill"></i>  New Delhi, India</a></li>
+                    <li><a href="#"> <i class="ri-mail-fill"></i> info@carrentals.com</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bar">
+            Copyright &copy 2025. All rights reserved
+        </div>
+    </footer>
+
+
+</body>
+</html>
